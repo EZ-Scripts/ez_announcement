@@ -1,4 +1,6 @@
+let sound = new Audio('announcementnotify.ogg')
 window.addEventListener('message', function(event) {
+    sound.play();
     if (event.data.type === 'announcement') {
         document.getElementById('announcement-message').textContent = event.data.message;
         document.getElementById('container').style.top = '0px';
