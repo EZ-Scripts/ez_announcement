@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: rgba(110, 0, 0, 0.877);
+  color: white;
+  position: fixed;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(75, 3, 3, 0.452);
+  border: 1px solid rgba(82, 7, 7, 0.342);
+  z-index: 1000;
+  transition: top 0.5s ease;
+}
+
+header {
+  font-size: 2em;
+  padding: 15px;
+  background-color: rgba(59, 2, 2, 0.281);
+}
+
+header i {
+  margin-right: 10px;
+}
+
+#announcement-content {
+  font-size: 1.5em;
+  padding: 6px;
+}
